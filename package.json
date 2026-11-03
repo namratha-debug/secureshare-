@@ -1,0 +1,20 @@
+{
+  "name": "secure-expiring-file-share",
+  "version": "1.0.0",
+  "description": "Encrypted, expiring, PIN-protected file sharing with audit logs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}
